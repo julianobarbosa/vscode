@@ -1,0 +1,11 @@
+{
+    // Linux
+    "terminal.integrated.shellArgs.linux": ["-l"],
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "editor.fontFamily": "Ubuntu Mono derivative Powerline",
+    // "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontFamily": "Fira Mono For Powerline",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 16,
+    "terminal.integrated.copyOnSelection": true
+}
