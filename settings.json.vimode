@@ -1,0 +1,128 @@
+{
+    // vimode
+    "vim.leader": ",",
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "C:\\Users\\juliano.barbosa\\AppData\\Local\\nvim\\init.vim",
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.showmodename": true,
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+        "before": ["<leader>", "q"],
+        "commands": ["workbench.action.previousEditor"],
+        },
+        {
+        "before": ["<leader>", "w"],
+        "commands": ["workbench.action.nextEditor"],
+        },
+        {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+        },
+        {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "git.enabled": true,
+    "git.path": "C:\\ProgramData\\scoop\\shims\\git.EXE",
+    "terminal.integrated.shell.windows": "c:/Program Files/PowerShell/6/pwsh.exe",
+    "terminal.integrated.fontFamily": "Cascadia Code PL",
+    "terminal.integrated.fontSize": 14,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "SynthWave '84",
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "'Cascadia Code PL', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "sync.gist": "0600d0f866d9687d02c68c7dbe2b1f5c",
+    "git.ignoreLegacyWarning": true,
+    "gitlab.instanceUrl": "https://git.3db.net.br",
+    "gitlab-notifications.privateToken": "X_MD7mKgwyxx7Z6rynix",
+    "files.exclude": {
+        "**/.venv": true
+    },
+    "window.zoomLevel": 1,
+    "markdown.trace": "verbose",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "editor.matchBrackets": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.dataScience.debugJustMyCode": false,
+    "editor.fontSize": 16,
+    "workbench.colorCustomizations": {},
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
+    "explorer.confirmDelete": false,
+    "gitlens.advanced.messages": {
+        "suppressGitVersionWarning": true
+    }
+}
